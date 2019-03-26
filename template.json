@@ -238,25 +238,6 @@
         "strategy": {
           "type": "Recreate"
         },
-        "triggers": [
-          {
-            "type": "ImageChange",
-            "imageChangeParams": {
-              "automatic": true,
-              "containerNames": [
-                "mongodb"
-              ],
-              "from": {
-                "kind": "ImageStreamTag",
-                "namespace": "${NAMESPACE}",
-                "name": "mongodb:${MONGODB_VERSION}"
-              }
-            }
-          },
-          {
-            "type": "ConfigChange"
-          }
-        ],
         "replicas": 1,
         "selector": {
           "name": "${DATABASE_SERVICE_NAME}"
