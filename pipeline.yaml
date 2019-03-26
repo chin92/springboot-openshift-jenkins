@@ -1,7 +1,7 @@
 kind: "BuildConfig"
 apiVersion: "v1"
 metadata:
-  name: "nodejs-sample-pipeline"
+  name: "spring-boot-demo"
 spec:
   strategy:
     jenkinsPipelineStrategy:
