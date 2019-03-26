@@ -10,7 +10,7 @@
 */
 
 def appName = "${params.PROJECT_NAME}"
-def imageBuildConfig = appName
+def imageBuildConfig = app.yaml
 def deploymentConfig = appName
 
 pipeline {

@@ -16,7 +16,7 @@ items:
     resources: {}
     source:
       git:
-        uri: https://github.com/cesarvr/Spring-Boot.git
+        uri: https://github.com/chin92/springboot-openshift-jenkins.git
       type: Git
     strategy:
       jenkinsPipelineStrategy: {}
